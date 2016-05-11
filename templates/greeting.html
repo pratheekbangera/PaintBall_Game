@@ -5,10 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Paintball game - Project 2">
-		<meta name="author" content="Team 5 - CMPE 281 Sprint 2015">
+		<meta name="description" content="Paintball game">
+		<meta name="author" content="paintball">
 		<link rel="icon" href="projectFiles/favicon.ico">
-		<title>Paintball - Project 2 by Team 5</title>
+		<title>Paintball</title>
 		<!-- Bootstrap core CSS -->
 		<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 		<!-- Custom styles for this template -->
@@ -36,10 +36,7 @@
 							<h1 class="cover-heading">Let the match begin</h1>
 							<button id="initializePlayer" class="btn btn-default" type="submit">Initialize the player</button>
 							<button id="getPlayerStatus" class="btn btn-default" type="submit" style="display:none">Player Status</button>
-							<audio autoplay controls loop style="margin-top:100px;">
-							  <source src="{{ url_for('static', filename='sounds/GOT-theme-music.mp3') }}">
-							  Your browser does not support the audio element.
-							</audio>
+
 						</div>
 						<div id="matchStatus" class="matchStatus">
 				
